@@ -1,0 +1,102 @@
+Question 1 (Count Files)
+Count the number of text files starting with a given prefix within a given
+directory.
+Write a script count_files.sh that takes the following arguments
+Path of the directory: This is where you will search for the files
+Prefix: Only files whose names begin with the specified prefix shall be
+counted
+Recursive (true or false): This parameter will only take values "true"
+or "false". If recursive is set to true then you also need to search
+for the subdirectories in the path mentioned. Otherwise you will only
+report the files present in the root of the directory mentioned
+Note: Script has to give the output to stdout. If the path is invalid (not a
+directory) or passed parameters are not valid then your script should output
+relevant error messages and exit with error code -1.
+bash ./count_files.sh <directory_path> <prefix> <recursive>
+Examples:
+
+Directory structure of /Users/mtech
+.
+├── 1.txt
+├── 2.txt
+├── abc1.txt
+├── abc2.txt
+└── subdir
+├── 4.txt
+└── abc3.txt
+
+bash ./count_files.sh . abc true
+3
+Recursive search is enabled thus sub directory is included. For the directory
+path I have passed "." which means current directory. Files counted are abc1.txt,
+abc2.txt and abc3.txt.
+
+bash ./count_files.sh /Users/mtech abc true
+3
+Recursive search is enabled thus sub directory is included. Files counted are
+abc1.txt, abc2.txt and abc3.txt
+
+bash ./count_files.sh /Users/mtech abc false
+2
+Recursive search is disabled thus sub directory is excluded. Files counted are
+abc1.txt and abc2.txt/
+
+bash ./count_files.sh /Users/mtech "" false
+6
+Prefix passed is empty thus the script will count all the txt files.
+
+bash ./count_files.sh /Users/mtech/lolo "" false (TODO Check)
+/Users/mtech/lolo is not a valid directory
+and exit with error code -1
+
+bash ./count_files.sh . "" true2
+recursive should take only true or false values
+and exit with error code -1
+
+-------------------------------------------------------------------------------------
+
+Question 2 (Arithmetic Operations)
+Write a script evaluation.sh that takes input file as an argument and gives
+final value after all the arithmetic operations.
+
+You only need to handle +, -, *, / and %. All of these are integer
+operations. Look at the following examples for better understanding.
+
+Note: Script has to give the output to stdout. If the path is invalid (not a
+file or invalid file) or passed parameters are not valid then your script
+should output relevant error messages and exit with error code -1.
+
+Example 1
+input.txt
+10 +
+20 -
+2 *
+4 /
+10 +
+2 %
+
+bash evaluation.sh input.txt
+1
+0 + 10 = 10
+10 - 20 = -10
+-10 * 2 = -20
+-20 / 4 = -5
+-5 + 10 = 5
+5 % 2 = 1
+
+Example 2
+input.txt
+10 +
+20 -
+2 *
+6 /
+10 +
+
+bash ./evaluation.sh input.txt
+7
+0 + 10 = 10
+10 - 20 = -10
+-10 * 2 = -20
+-20 / 6 = -3 (Integer Division)
+
+-3 + 10 = 7
