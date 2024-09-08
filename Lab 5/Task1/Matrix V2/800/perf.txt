@@ -1,0 +1,76 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 6K of event 'cycles:P'
+# Event count (approx.): 5976944402
+#
+# Overhead  Command    Shared Object      Symbol                             
+# ........  .........  .................  ...................................
+#
+    91.69%  main_perf  main_perf          [.] multiply_matrix_v2
+     2.73%  main_perf  libc.so.6          [.] __vfscanf_internal
+     0.84%  main_perf  libc.so.6          [.] __printf_buffer
+     0.53%  main_perf  main_perf          [.] get_matrix
+     0.49%  main_perf  libc.so.6          [.] __GI_____strtoll_l_internal
+     0.40%  main_perf  libc.so.6          [.] __printf_buffer_write
+     0.39%  main_perf  [kernel.kallsyms]  [k] process_output_block
+     0.32%  main_perf  main_perf          [.] print_matrix
+     0.31%  main_perf  libc.so.6          [.] __isoc99_scanf
+     0.28%  main_perf  libc.so.6          [.] _IO_sputbackc
+     0.23%  main_perf  libc.so.6          [.] __strchrnul_avx2
+     0.19%  main_perf  libc.so.6          [.] _itoa_word
+     0.16%  main_perf  libc.so.6          [.] __memmove_avx_unaligned_erms
+     0.15%  main_perf  libc.so.6          [.] __vfprintf_internal
+     0.15%  main_perf  libc.so.6          [.] _IO_file_xsputn@@GLIBC_2.2.5
+     0.13%  main_perf  libc.so.6          [.] __printf_buffer_to_file_done
+     0.07%  main_perf  [kernel.kallsyms]  [k] clear_page_erms
+     0.07%  main_perf  libc.so.6          [.] __GI___libc_cleanup_pop_restore
+     0.06%  main_perf  libc.so.6          [.] __printf_buffer_to_file_switch
+     0.06%  main_perf  main_perf          [.] __isoc99_scanf@plt
+     0.06%  main_perf  libc.so.6          [.] __strchrnul_ifunc@plt
+     0.05%  main_perf  [kernel.kallsyms]  [k] hrtimer_active
+     0.04%  main_perf  [kernel.kallsyms]  [k] memset_orig
+     0.04%  main_perf  [kernel.kallsyms]  [k] native_irq_return_iret
+     0.04%  main_perf  [kernel.kallsyms]  [k] get_sigframe_size
+     0.03%  main_perf  libc.so.6          [.] printf
+     0.03%  main_perf  libc.so.6          [.] __mempcpy@plt
+     0.02%  main_perf  libc.so.6          [.] memcpy@@GLIBC_2.14@plt
+     0.02%  main_perf  libc.so.6          [.] __printf_buffer_to_file_init
+     0.02%  main_perf  [kernel.kallsyms]  [k] llist_add_batch
+     0.02%  main_perf  libc.so.6          [.] __mempcpy_avx_unaligned_erms
+     0.02%  main_perf  [kernel.kallsyms]  [k] rw_verify_area
+     0.02%  main_perf  [kernel.kallsyms]  [k] __raw_spin_lock_irqsave
+     0.01%  main_perf  libc.so.6          [.] __printf_buffer_done
+     0.01%  main_perf  libc.so.6          [.] __GI___libc_cleanup_push_defer
+     0.01%  main_perf  libc.so.6          [.] __strtoll_internal
+     0.01%  main_perf  [kernel.kallsyms]  [k] irqentry_exit_to_user_mode
+     0.01%  main_perf  [kernel.kallsyms]  [k] current_time
+     0.01%  main_perf  [kernel.kallsyms]  [k] lru_add_fn
+     0.01%  main_perf  [kernel.kallsyms]  [k] handle_pte_fault
+     0.01%  main_perf  [kernel.kallsyms]  [k] __rmqueue_pcplist
+     0.01%  main_perf  libc.so.6          [.] _IO_file_write@@GLIBC_2.2.5
+     0.01%  main_perf  [kernel.kallsyms]  [k] lru_gen_add_folio
+     0.01%  main_perf  [kernel.kallsyms]  [k] asm_exc_page_fault
+     0.01%  main_perf  [kernel.kallsyms]  [k] lock_vma_under_rcu
+     0.01%  main_perf  [kernel.kallsyms]  [k] xas_descend
+     0.01%  main_perf  [kernel.kallsyms]  [k] __mod_memcg_lruvec_state
+     0.01%  main_perf  libc.so.6          [.] __GI___libc_write
+     0.01%  main_perf  [kernel.kallsyms]  [k] error_entry
+     0.01%  main_perf  [kernel.kallsyms]  [k] down_read
+     0.01%  main_perf  [kernel.kallsyms]  [k] __tty_insert_flip_string_flags
+     0.01%  main_perf  [kernel.kallsyms]  [k] free_pcppages_bulk
+     0.01%  main_perf  [kernel.kallsyms]  [k] up_read
+     0.01%  main_perf  [kernel.kallsyms]  [k] lru_gen_del_folio.constprop.0
+     0.01%  main_perf  [kernel.kallsyms]  [k] _compound_head
+     0.01%  main_perf  [kernel.kallsyms]  [k] __mod_lruvec_state
+     0.01%  main_perf  main_perf          [.] printf@plt
+     0.00%  main_perf  [kernel.kallsyms]  [k] memcpy_orig
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_sched_clock
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

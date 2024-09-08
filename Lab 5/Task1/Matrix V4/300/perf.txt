@@ -1,0 +1,51 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 210  of event 'cycles:P'
+# Event count (approx.): 200279517
+#
+# Overhead  Command    Shared Object      Symbol                            
+# ........  .........  .................  ..................................
+#
+    45.53%  main_perf  main_perf          [.] multiply_matrix_v4
+    15.07%  main_perf  libc.so.6          [.] __vfscanf_internal
+     9.16%  main_perf  main_perf          [.] get_matrix
+     4.40%  main_perf  libc.so.6          [.] __printf_buffer
+     2.45%  main_perf  [kernel.kallsyms]  [k] rmqueue_bulk
+     2.23%  main_perf  main_perf          [.] transpose_matrix
+     2.03%  main_perf  [kernel.kallsyms]  [k] native_irq_return_iret
+     1.86%  main_perf  [kernel.kallsyms]  [k] process_output_block
+     1.56%  main_perf  libc.so.6          [.] __printf_buffer_to_file_done
+     1.56%  main_perf  main_perf          [.] print_matrix
+     1.51%  main_perf  libc.so.6          [.] printf
+     1.37%  main_perf  libc.so.6          [.] _IO_sputbackc
+     1.24%  main_perf  [kernel.kallsyms]  [k] kfree
+     1.02%  main_perf  [kernel.kallsyms]  [k] __rcu_read_lock
+     1.00%  main_perf  libc.so.6          [.] __printf_buffer_write
+     0.89%  main_perf  libc.so.6          [.] __GI_____strtoll_l_internal
+     0.89%  main_perf  libc.so.6          [.] __strchrnul_avx2
+     0.70%  main_perf  libc.so.6          [.] __printf_buffer_done
+     0.60%  main_perf  libc.so.6          [.] _IO_file_xsputn@@GLIBC_2.2.5
+     0.57%  main_perf  [kernel.kallsyms]  [k] __smp_call_single_queue
+     0.51%  main_perf  [kernel.kallsyms]  [k] _compound_head
+     0.50%  main_perf  [kernel.kallsyms]  [k] release_pages
+     0.49%  main_perf  [kernel.kallsyms]  [k] lru_gen_del_folio.constprop.0
+     0.45%  main_perf  [kernel.kallsyms]  [k] mem_cgroup_commit_charge
+     0.45%  main_perf  [kernel.kallsyms]  [k] __alloc_pages
+     0.45%  main_perf  libc.so.6          [.] __GI___libc_cleanup_push_defer
+     0.45%  main_perf  libc.so.6          [.] __isoc99_scanf
+     0.45%  main_perf  [kernel.kallsyms]  [k] _raw_spin_lock
+     0.45%  main_perf  libc.so.6          [.] _itoa_word
+     0.10%  main_perf  [kernel.kallsyms]  [k] flush_signal_handlers
+     0.06%  main_perf  [kernel.kallsyms]  [k] mutex_lock
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_sched_clock
+     0.00%  main_perf  [kernel.kallsyms]  [k] intel_pmu_handle_irq
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_write_msr
+     0.00%  main_perf  [kernel.kallsyms]  [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

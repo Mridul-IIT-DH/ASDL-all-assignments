@@ -1,0 +1,49 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 154  of event 'cycles:P'
+# Event count (approx.): 146042332
+#
+# Overhead  Command    Shared Object      Symbol                            
+# ........  .........  .................  ..................................
+#
+    21.52%  main_perf  libc.so.6          [.] __vfscanf_internal
+    11.62%  main_perf  main_perf          [.] get_matrix
+    10.38%  main_perf  libc.so.6          [.] __printf_buffer
+     7.29%  main_perf  libc.so.6          [.] __printf_buffer_write
+     6.11%  main_perf  libc.so.6          [.] __printf_buffer_to_file_done
+     6.02%  main_perf  libc.so.6          [.] __GI_____strtoll_l_internal
+     4.89%  main_perf  libc.so.6          [.] _IO_file_xsputn@@GLIBC_2.2.5
+     4.89%  main_perf  main_perf          [.] print_matrix
+     4.28%  main_perf  [kernel.kallsyms]  [k] process_output_block
+     3.64%  main_perf  libc.so.6          [.] __strchrnul_avx2
+     1.99%  main_perf  [kernel.kallsyms]  [k] __mod_node_page_state
+     1.81%  main_perf  libc.so.6          [.] _itoa_word
+     1.60%  main_perf  [kernel.kallsyms]  [k] strnlen_user
+     1.22%  main_perf  libc.so.6          [.] memcpy@@GLIBC_2.14@plt
+     1.22%  main_perf  libc.so.6          [.] __printf_buffer_done
+     1.22%  main_perf  libc.so.6          [.] __memmove_avx_unaligned_erms
+     1.22%  main_perf  [kernel.kallsyms]  [k] _raw_spin_lock
+     1.20%  main_perf  libc.so.6          [.] __vfprintf_internal
+     1.05%  main_perf  [kernel.kallsyms]  [k] __handle_mm_fault
+     0.62%  main_perf  libc.so.6          [.] _IO_sputbackc
+     0.62%  main_perf  libc.so.6          [.] __isoc99_scanf
+     0.61%  main_perf  libc.so.6          [.] __GI___libc_cleanup_push_defer
+     0.61%  main_perf  [kernel.kallsyms]  [k] folio_mark_accessed
+     0.61%  main_perf  [kernel.kallsyms]  [k] llist_add_batch
+     0.61%  main_perf  main_perf          [.] printf@plt
+     0.61%  main_perf  libc.so.6          [.] __printf_buffer_to_file_switch
+     0.61%  main_perf  [kernel.kallsyms]  [k] _copy_from_iter
+     0.61%  main_perf  [kernel.kallsyms]  [k] __raw_spin_lock_irqsave
+     0.60%  main_perf  [kernel.kallsyms]  [k] free_unref_page_commit
+     0.60%  main_perf  [kernel.kallsyms]  [k] _compound_head
+     0.12%  main_perf  [kernel.kallsyms]  [k] memcpy_orig
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_sched_clock
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

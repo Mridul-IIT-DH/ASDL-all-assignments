@@ -1,0 +1,142 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 29K of event 'cycles:P'
+# Event count (approx.): 26307013659
+#
+# Overhead  Command    Shared Object         Symbol                              
+# ........  .........  ....................  ....................................
+#
+    94.84%  main_perf  main_perf             [.] multiply_matrix_v3
+     2.12%  main_perf  libc.so.6             [.] __vfscanf_internal
+     0.34%  main_perf  main_perf             [.] get_matrix
+     0.34%  main_perf  libc.so.6             [.] __GI_____strtoll_l_internal
+     0.25%  main_perf  libc.so.6             [.] __printf_buffer
+     0.21%  main_perf  libc.so.6             [.] _IO_sputbackc
+     0.19%  main_perf  libc.so.6             [.] _itoa_word
+     0.17%  main_perf  [kernel.kallsyms]     [k] process_output_block
+     0.12%  main_perf  main_perf             [.] print_matrix
+     0.12%  main_perf  libc.so.6             [.] __isoc99_scanf
+     0.10%  main_perf  main_perf             [.] transpose_matrix
+     0.09%  main_perf  libc.so.6             [.] __vfprintf_internal
+     0.08%  main_perf  libc.so.6             [.] _IO_file_xsputn@@GLIBC_2.2.5
+     0.07%  main_perf  libc.so.6             [.] __printf_buffer_write
+     0.07%  main_perf  libc.so.6             [.] __printf_buffer_to_file_done
+     0.07%  main_perf  libc.so.6             [.] __strchrnul_avx2
+     0.06%  main_perf  libc.so.6             [.] printf
+     0.04%  main_perf  libc.so.6             [.] __GI___libc_cleanup_push_defer
+     0.04%  main_perf  libc.so.6             [.] __printf_buffer_to_file_switch
+     0.03%  main_perf  libc.so.6             [.] __GI___libc_cleanup_pop_restore
+     0.03%  main_perf  [kernel.kallsyms]     [k] clear_page_erms
+     0.03%  main_perf  [kernel.kallsyms]     [k] native_irq_return_iret
+     0.02%  main_perf  libc.so.6             [.] __memmove_avx_unaligned_erms
+     0.02%  main_perf  [kernel.kallsyms]     [k] sync_regs
+     0.02%  main_perf  main_perf             [.] __isoc99_scanf@plt
+     0.02%  main_perf  [kernel.kallsyms]     [k] __raw_spin_lock_irqsave
+     0.01%  main_perf  [kernel.kallsyms]     [k] _raw_spin_lock
+     0.01%  main_perf  libc.so.6             [.] memcpy@@GLIBC_2.14@plt
+     0.01%  main_perf  [kernel.kallsyms]     [k] __fdget_pos
+     0.01%  main_perf  [kernel.kallsyms]     [k] rmqueue_bulk
+     0.01%  main_perf  [kernel.kallsyms]     [k] release_pages
+     0.01%  main_perf  [unknown]             [.] 0000000000000000
+     0.01%  main_perf  [kernel.kallsyms]     [k] native_write_msr
+     0.01%  main_perf  [kernel.kallsyms]     [k] clear_bhb_loop
+     0.01%  main_perf  libc.so.6             [.] __strtoll_internal
+     0.01%  main_perf  [kernel.kallsyms]     [k] memset_orig
+     0.01%  main_perf  libc.so.6             [.] __printf_buffer_to_file_init
+     0.01%  main_perf  ld-linux-x86-64.so.2  [.] _start
+     0.01%  main_perf  [kernel.kallsyms]     [k] native_queued_spin_lock_slowpath
+     0.01%  main_perf  [kernel.kallsyms]     [k] llist_add_batch
+     0.01%  main_perf  [kernel.kallsyms]     [k] mutex_unlock
+     0.01%  main_perf  [kernel.kallsyms]     [k] process_echoes
+     0.01%  main_perf  libc.so.6             [.] __mempcpy_avx_unaligned_erms
+     0.01%  main_perf  [kernel.kallsyms]     [k] try_to_wake_up
+     0.01%  main_perf  [kernel.kallsyms]     [k] entry_SYSCALL_64_after_hwframe
+     0.01%  main_perf  [kernel.kallsyms]     [k] __radix_tree_lookup
+     0.01%  main_perf  [kernel.kallsyms]     [k] x2apic_send_IPI
+     0.01%  main_perf  [kernel.kallsyms]     [k] error_entry
+     0.01%  main_perf  [kernel.kallsyms]     [k] lru_add_fn
+     0.01%  main_perf  libc.so.6             [.] __printf_buffer_done
+     0.01%  main_perf  [kernel.kallsyms]     [k] free_iova_fast
+     0.01%  main_perf  [kernel.kallsyms]     [k] rep_movs_alternative
+     0.01%  main_perf  [kernel.kallsyms]     [k] __rcu_read_lock
+     0.01%  main_perf  [kernel.kallsyms]     [k] do_anonymous_page
+     0.01%  main_perf  [kernel.kallsyms]     [k] __mod_memcg_lruvec_state
+     0.01%  main_perf  [kernel.kallsyms]     [k] __tty_buffer_request_room
+     0.01%  main_perf  [kernel.kallsyms]     [k] free_swap_cache
+     0.01%  main_perf  [kernel.kallsyms]     [k] _compound_head
+     0.01%  main_perf  [kernel.kallsyms]     [k] memcpy_orig
+     0.01%  main_perf  libc.so.6             [.] _IO_file_write@@GLIBC_2.2.5
+     0.01%  main_perf  [kernel.kallsyms]     [k] percpu_counter_add_batch
+     0.01%  main_perf  [kernel.kallsyms]     [k] pmd_val
+     0.00%  main_perf  [kernel.kallsyms]     [k] security_file_permission
+     0.00%  main_perf  [kernel.kallsyms]     [k] down_read
+     0.00%  main_perf  [kernel.kallsyms]     [k] select_task_rq_fair
+     0.00%  main_perf  [kernel.kallsyms]     [k] dequeue_task_fair
+     0.00%  main_perf  libc.so.6             [.] __strchrnul_ifunc@plt
+     0.00%  main_perf  [kernel.kallsyms]     [k] ttwu_queue_wakelist
+     0.00%  main_perf  [kernel.kallsyms]     [k] syscall_return_via_sysret
+     0.00%  main_perf  [kernel.kallsyms]     [k] tty_buffer_space_avail
+     0.00%  main_perf  [kernel.kallsyms]     [k] file_tty_write.isra.0
+     0.00%  main_perf  [kernel.kallsyms]     [k] __wake_up_common
+     0.00%  main_perf  [kernel.kallsyms]     [k] __sysvec_apic_timer_interrupt
+     0.00%  main_perf  [kernel.kallsyms]     [k] asm_exc_page_fault
+     0.00%  main_perf  [kernel.kallsyms]     [k] get_page_from_freelist
+     0.00%  main_perf  [kernel.kallsyms]     [k] __rmqueue_pcplist
+     0.00%  main_perf  [kernel.kallsyms]     [k] __calc_delta.constprop.0
+     0.00%  main_perf  [kernel.kallsyms]     [k] get_vma_policy
+     0.00%  main_perf  [kernel.kallsyms]     [k] notifier_call_chain
+     0.00%  main_perf  [kernel.kallsyms]     [k] qi_submit_sync
+     0.00%  main_perf  [kernel.kallsyms]     [k] perf_adjust_freq_unthr_context
+     0.00%  main_perf  [kernel.kallsyms]     [k] mem_cgroup_handle_over_high
+     0.00%  main_perf  [kernel.kallsyms]     [k] fpregs_assert_state_consistent
+     0.00%  main_perf  [kernel.kallsyms]     [k] __do_softirq
+     0.00%  main_perf  [kernel.kallsyms]     [k] fq_flush_timeout
+     0.00%  main_perf  [kernel.kallsyms]     [k] __pte_offset_map
+     0.00%  main_perf  [kernel.kallsyms]     [k] lapic_next_deadline
+     0.00%  main_perf  [kernel.kallsyms]     [k] cgroup_rstat_updated
+     0.00%  main_perf  [kernel.kallsyms]     [k] rmqueue
+     0.00%  main_perf  [kernel.kallsyms]     [k] enqueue_task
+     0.00%  main_perf  [kernel.kallsyms]     [k] folio_add_lru
+     0.00%  main_perf  [kernel.kallsyms]     [k] get_mem_cgroup_from_mm
+     0.00%  main_perf  [kernel.kallsyms]     [k] __check_heap_object
+     0.00%  main_perf  [kernel.kallsyms]     [k] _find_next_bit
+     0.00%  main_perf  [kernel.kallsyms]     [k] __handle_mm_fault
+     0.00%  main_perf  [kernel.kallsyms]     [k] mas_walk
+     0.00%  main_perf  [kernel.kallsyms]     [k] mt_destroy_walk.isra.0
+     0.00%  main_perf  [kernel.kallsyms]     [k] page_counter_try_charge
+     0.00%  main_perf  [kernel.kallsyms]     [k] tlb_batch_pages_flush
+     0.00%  main_perf  [kernel.kallsyms]     [k] __smp_call_single_queue
+     0.00%  main_perf  [kernel.kallsyms]     [k] __mod_lruvec_state
+     0.00%  main_perf  [kernel.kallsyms]     [k] fsnotify
+     0.00%  main_perf  [kernel.kallsyms]     [k] vfs_read
+     0.00%  main_perf  [kernel.kallsyms]     [k] filemap_get_read_batch
+     0.00%  main_perf  [kernel.kallsyms]     [k] _raw_spin_unlock
+     0.00%  main_perf  [kernel.kallsyms]     [k] __free_one_page
+     0.00%  main_perf  libc.so.6             [.] _IO_default_xsputn
+     0.00%  main_perf  [kernel.kallsyms]     [k] _raw_spin_trylock
+     0.00%  main_perf  [kernel.kallsyms]     [k] __check_object_size
+     0.00%  main_perf  [kernel.kallsyms]     [k] available_idle_cpu
+     0.00%  main_perf  [kernel.kallsyms]     [k] folio_remove_rmap_ptes
+     0.00%  main_perf  libc.so.6             [.] _IO_do_write@@GLIBC_2.2.5
+     0.00%  main_perf  [kernel.kallsyms]     [k] rcu_sched_clock_irq
+     0.00%  main_perf  [kernel.kallsyms]     [k] call_function_single_prep_ipi
+     0.00%  main_perf  [kernel.kallsyms]     [k] n_tty_write
+     0.00%  main_perf  [kernel.kallsyms]     [k] update_load_avg
+     0.00%  main_perf  [kernel.kallsyms]     [k] hrtimer_active
+     0.00%  main_perf  [kernel.kallsyms]     [k] update_curr
+     0.00%  main_perf  [kernel.kallsyms]     [k] native_apic_msr_eoi
+     0.00%  main_perf  [kernel.kallsyms]     [k] down_read_trylock
+     0.00%  main_perf  [kernel.kallsyms]     [k] __count_memcg_events
+     0.00%  main_perf  [kernel.kallsyms]     [k] pfn_pte
+     0.00%  main_perf  [kernel.kallsyms]     [k] flush_signal_handlers
+     0.00%  perf-exec  [kernel.kallsyms]     [k] native_sched_clock
+     0.00%  main_perf  [kernel.kallsyms]     [k] sched_clock
+     0.00%  perf-exec  [kernel.kallsyms]     [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

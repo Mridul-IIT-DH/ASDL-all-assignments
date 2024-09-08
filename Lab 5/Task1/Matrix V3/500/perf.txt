@@ -1,0 +1,50 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 152  of event 'cycles:P'
+# Event count (approx.): 144940775
+#
+# Overhead  Command    Shared Object      Symbol                            
+# ........  .........  .................  ..................................
+#
+    26.23%  main_perf  libc.so.6          [.] __vfscanf_internal
+    15.40%  main_perf  libc.so.6          [.] __printf_buffer
+     6.61%  main_perf  main_perf          [.] get_matrix
+     4.31%  main_perf  libc.so.6          [.] __strchrnul_avx2
+     3.70%  main_perf  main_perf          [.] print_matrix
+     3.70%  main_perf  libc.so.6          [.] __memmove_avx_unaligned_erms
+     3.70%  main_perf  libc.so.6          [.] __printf_buffer_write
+     3.70%  main_perf  [kernel.kallsyms]  [k] process_output_block
+     3.08%  main_perf  libc.so.6          [.] _itoa_word
+     2.79%  main_perf  libc.so.6          [.] __isoc99_scanf
+     2.47%  main_perf  libc.so.6          [.] __vfprintf_internal
+     2.46%  main_perf  libc.so.6          [.] __printf_buffer_to_file_done
+     2.04%  main_perf  [kernel.kallsyms]  [k] native_irq_return_iret
+     1.86%  main_perf  libc.so.6          [.] __GI_____strtoll_l_internal
+     1.85%  main_perf  libc.so.6          [.] printf
+     1.85%  main_perf  libc.so.6          [.] _IO_file_xsputn@@GLIBC_2.2.5
+     1.71%  main_perf  [kernel.kallsyms]  [k] call_rcu
+     1.70%  main_perf  [kernel.kallsyms]  [k] fpregs_assert_state_consistent
+     1.43%  main_perf  [kernel.kallsyms]  [k] clear_page_erms
+     1.23%  main_perf  libc.so.6          [.] __GI___libc_cleanup_push_defer
+     1.23%  main_perf  libc.so.6          [.] __printf_buffer_done
+     1.23%  main_perf  libc.so.6          [.] __strchrnul_ifunc@plt
+     0.63%  main_perf  libc.so.6          [.] __strtoll_internal
+     0.63%  main_perf  libc.so.6          [.] _IO_sputbackc
+     0.62%  main_perf  [kernel.kallsyms]  [k] llist_add_batch
+     0.62%  main_perf  libc.so.6          [.] __printf_buffer_to_file_init
+     0.62%  main_perf  [kernel.kallsyms]  [k] _compound_head
+     0.62%  main_perf  [kernel.kallsyms]  [k] __cond_resched
+     0.62%  main_perf  [kernel.kallsyms]  [k] __fdget_pos
+     0.62%  main_perf  [kernel.kallsyms]  [k] release_pages
+     0.62%  main_perf  libc.so.6          [.] memcpy@@GLIBC_2.14@plt
+     0.14%  main_perf  [kernel.kallsyms]  [k] __perf_event__output_id_sample
+     0.01%  perf-exec  [kernel.kallsyms]  [k] sched_clock_noinstr
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

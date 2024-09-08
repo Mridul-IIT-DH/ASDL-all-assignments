@@ -1,0 +1,79 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 131  of event 'cycles:P'
+# Event count (approx.): 124274030
+#
+# Overhead  Command    Shared Object      Symbol                
+# ........  .........  .................  ......................
+#
+    23.52%  main_perf  main_perf          [.] 0x0000000000001852
+     4.49%  main_perf  main_perf          [.] 0x0000000000001842
+     4.09%  main_perf  main_perf          [.] 0x000000000000185e
+     3.60%  main_perf  main_perf          [.] 0x0000000000001f4b
+     3.60%  main_perf  main_perf          [.] 0x0000000000001f4f
+     2.97%  main_perf  main_perf          [.] 0x0000000000001865
+     2.88%  main_perf  main_perf          [.] 0x0000000000001f2d
+     2.27%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbb3a95d7
+     2.16%  main_perf  main_perf          [.] 0x0000000000001f70
+     2.16%  main_perf  main_perf          [.] 0x000000000000184f
+     2.16%  main_perf  main_perf          [.] 0x0000000000001f1d
+     2.16%  main_perf  main_perf          [.] 0x0000000000001f7e
+     2.16%  main_perf  main_perf          [.] 0x0000000000001eff
+     2.12%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbb60128c
+     1.81%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbb38acf5
+     1.44%  main_perf  main_perf          [.] 0x0000000000001f41
+     1.44%  main_perf  main_perf          [.] 0x0000000000001f60
+     1.44%  main_perf  main_perf          [.] 0x0000000000001f23
+     1.44%  main_perf  main_perf          [.] 0x0000000000001f05
+     1.44%  main_perf  main_perf          [.] 0x000000000000183f
+     1.44%  main_perf  main_perf          [.] 0x0000000000001f3b
+     1.29%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba638a1a
+     1.15%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbb601638
+     1.09%  main_perf  libc.so.6          [.] 0x000000000006b891
+     1.04%  main_perf  libc.so.6          [.] 0x000000000006cd3f
+     0.76%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba5ce10f
+     0.73%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba5cd068
+     0.73%  main_perf  libc.so.6          [.] 0x0000000000098e61
+     0.73%  main_perf  libc.so.6          [.] 0x00000000000544bb
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba3d9efe
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba5ce19f
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba62246b
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba5ce012
+     0.72%  main_perf  main_perf          [.] 0x0000000000001f88
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba2c45b3
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba617069
+     0.72%  main_perf  main_perf          [.] 0x0000000000001f74
+     0.72%  main_perf  main_perf          [.] 0x0000000000001eb1
+     0.72%  main_perf  main_perf          [.] 0x0000000000001f78
+     0.72%  main_perf  libc.so.6          [.] 0x000000000005f0ab
+     0.72%  main_perf  libc.so.6          [.] 0x000000000006c21e
+     0.72%  main_perf  main_perf          [.] 0x0000000000001f0f
+     0.72%  main_perf  libc.so.6          [.] 0x000000000006cd0d
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba5ce1a9
+     0.72%  main_perf  main_perf          [.] 0x00000000000018b4
+     0.72%  main_perf  main_perf          [.] 0x0000000000001f53
+     0.72%  main_perf  libc.so.6          [.] 0x000000000006ce24
+     0.72%  main_perf  libc.so.6          [.] 0x00000000000939da
+     0.72%  main_perf  main_perf          [.] 0x0000000000001f17
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbacea81c
+     0.72%  main_perf  libc.so.6          [.] 0x0000000000093a4e
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba63094f
+     0.72%  main_perf  libc.so.6          [.] 0x0000000000093afc
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba5cda76
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba63bb6a
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbb3920e9
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba667ee5
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba64eb66
+     0.72%  main_perf  [kernel.kallsyms]  [k] 0xffffffffbb442061
+     0.14%  main_perf  [kernel.kallsyms]  [k] 0xffffffffba590ed0
+     0.01%  perf-exec  [kernel.kallsyms]  [k] 0xffffffffba266d41
+     0.00%  perf-exec  [kernel.kallsyms]  [k] 0xffffffffba2c4b06
+     0.00%  perf-exec  [kernel.kallsyms]  [k] 0xffffffffba2c4b04
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

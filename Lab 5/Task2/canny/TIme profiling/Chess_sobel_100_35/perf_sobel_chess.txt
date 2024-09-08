@@ -1,0 +1,21 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 8  of event 'cycles:P'
+# Event count (approx.): 5506777
+#
+# Overhead  Command    Shared Object         Symbol                    
+# ........  .........  ....................  ..........................
+#
+    55.95%  sobel.out  ld-linux-x86-64.so.2  [.] _dl_relocate_object
+    40.89%  sobel.out  [kernel.kallsyms]     [k] mas_wr_node_store
+     3.03%  sobel.out  [kernel.kallsyms]     [k] __rcu_read_unlock
+     0.12%  perf-exec  [kernel.kallsyms]     [k] perf_sample_event_took
+     0.00%  perf-exec  [kernel.kallsyms]     [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

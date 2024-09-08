@@ -1,0 +1,21 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 8  of event 'cycles:P'
+# Event count (approx.): 5469708
+#
+# Overhead  Command    Shared Object         Symbol                
+# ........  .........  ....................  ......................
+#
+    56.07%  canny.out  ld-linux-x86-64.so.2  [.] do_lookup_x
+    40.85%  canny.out  [kernel.kallsyms]     [k] kmem_cache_alloc
+     2.96%  canny.out  [kernel.kallsyms]     [k] native_sched_clock
+     0.12%  perf-exec  [kernel.kallsyms]     [k] native_sched_clock
+     0.00%  perf-exec  [kernel.kallsyms]     [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

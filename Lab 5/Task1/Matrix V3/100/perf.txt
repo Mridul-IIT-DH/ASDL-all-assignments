@@ -1,0 +1,66 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 167  of event 'cycles:P'
+# Event count (approx.): 156151306
+#
+# Overhead  Command    Shared Object      Symbol                            
+# ........  .........  .................  ..................................
+#
+    22.16%  main_perf  main_perf          [.] get_matrix
+    16.01%  main_perf  main_perf          [.] multiply_matrix_v3
+    14.30%  main_perf  main_perf          [.] transpose_matrix
+     4.74%  main_perf  [kernel.kallsyms]  [k] native_irq_return_iret
+     2.86%  main_perf  libc.so.6          [.] __vfscanf_internal
+     2.31%  main_perf  [kernel.kallsyms]  [k] clear_page_erms
+     2.29%  main_perf  [kernel.kallsyms]  [k] __rcu_read_unlock
+     2.29%  main_perf  [kernel.kallsyms]  [k] free_swap_cache
+     1.72%  main_perf  [kernel.kallsyms]  [k] __lruvec_stat_mod_folio
+     1.65%  main_perf  [kernel.kallsyms]  [k] down_read_trylock
+     1.44%  main_perf  [kernel.kallsyms]  [k] folio_batch_move_lru
+     1.43%  main_perf  [kernel.kallsyms]  [k] _copy_to_user
+     1.28%  main_perf  [kernel.kallsyms]  [k] alloc_pages_mpol
+     1.23%  main_perf  [kernel.kallsyms]  [k] handle_mm_fault
+     1.22%  main_perf  [kernel.kallsyms]  [k] mas_walk
+     1.18%  main_perf  [kernel.kallsyms]  [k] get_mem_cgroup_from_mm
+     1.16%  main_perf  [kernel.kallsyms]  [k] pfn_pte
+     1.16%  main_perf  [kernel.kallsyms]  [k] asm_exc_page_fault
+     1.15%  main_perf  [kernel.kallsyms]  [k] percpu_counter_add_batch
+     1.15%  main_perf  [kernel.kallsyms]  [k] rmqueue_bulk
+     1.14%  main_perf  [kernel.kallsyms]  [k] _compound_head
+     1.14%  main_perf  [kernel.kallsyms]  [k] __count_memcg_events
+     1.03%  main_perf  [kernel.kallsyms]  [k] __alloc_pages
+     0.68%  main_perf  [kernel.kallsyms]  [k] pud_val
+     0.58%  main_perf  [kernel.kallsyms]  [k] __mod_node_page_state
+     0.58%  main_perf  libc.so.6          [.] __GI_____strtoll_l_internal
+     0.58%  main_perf  libc.so.6          [.] __isoc99_scanf
+     0.57%  main_perf  [kernel.kallsyms]  [k] consume_stock
+     0.57%  main_perf  [kernel.kallsyms]  [k] irqentry_exit_to_user_mode
+     0.57%  main_perf  [kernel.kallsyms]  [k] n_tty_write
+     0.57%  main_perf  libc.so.6          [.] __printf_buffer
+     0.57%  main_perf  [kernel.kallsyms]  [k] file_tty_write.isra.0
+     0.57%  main_perf  libc.so.6          [.] __memmove_avx_unaligned_erms
+     0.57%  main_perf  [kernel.kallsyms]  [k] do_user_addr_fault
+     0.57%  main_perf  libc.so.6          [.] __vfprintf_internal
+     0.57%  main_perf  [kernel.kallsyms]  [k] zap_pte_range
+     0.57%  main_perf  [kernel.kallsyms]  [k] __mod_zone_page_state
+     0.57%  main_perf  [kernel.kallsyms]  [k] vm_normal_page
+     0.57%  main_perf  [kernel.kallsyms]  [k] fpregs_assert_state_consistent
+     0.57%  main_perf  [kernel.kallsyms]  [k] __folio_throttle_swaprate
+     0.57%  main_perf  [kernel.kallsyms]  [k] cgroup_rstat_updated
+     0.57%  main_perf  [kernel.kallsyms]  [k] _raw_spin_trylock
+     0.57%  main_perf  [kernel.kallsyms]  [k] folio_add_lru
+     0.57%  main_perf  [kernel.kallsyms]  [k] native_flush_tlb_one_user
+     0.57%  main_perf  [kernel.kallsyms]  [k] access_error
+     0.57%  main_perf  [kernel.kallsyms]  [k] rmqueue
+     0.57%  main_perf  [kernel.kallsyms]  [k] __handle_mm_fault
+     0.10%  perf-exec  [kernel.kallsyms]  [k] perf_event_comm_output
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_sched_clock
+     0.00%  perf-exec  [kernel.kallsyms]  [k] native_write_msr
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
